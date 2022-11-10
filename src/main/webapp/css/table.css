@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+table {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+caption {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-decoration: underline;
+}
+
+thead {
+	
+}
+
+tbody {
+	
+}
+
+tfoot {
+	
+}
+
+tr {
+	text-align: center;
+}
+
+th, td {
+	border: 1px solid black;
+}
+
+th {
+	background-color: #eeeeee;
+}
+
+thead, tfoot, tr {
+	height: 30px;
+}
+
+thead tr th, thead tr td{
+	background-color: #333333;
+	color: white;
+}
+
+.empty {
+	background-color: #000000;
+}
+
